@@ -1,0 +1,3 @@
+# Type Error in TypeScript Function
+
+This repository demonstrates a common type error in TypeScript where a function expecting a specific type receives an argument of a different type.  The code in `bug.ts` attempts to pass an array to a function that expects a string, leading to a runtime error. The solution in `bugSolution.ts` shows how to properly handle this situation by adding type checks or using generics.
